@@ -1,0 +1,44 @@
+/* .h1{
+    text-shadow:6px 6px 6px red;
+}
+.box{
+    background-color:aqua;
+    width: 200px;
+    height:200px;
+    box-shadow:10px 10px 15px green,10px 10px 15px brown;
+} */
+ div{
+    display: inline-block;
+    
+    background-color: red;
+    margin: 2px;
+    width: 100px;
+    height: 100px;
+ }
+ .box1{
+    position: relative;
+    top: 50px;
+    left: 25px;
+
+ }
+ .f2{
+    background-color:yellow ;
+    width: 1000px;
+    height: 1000px;
+
+ }
+ .box2{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+ }
+ .box3{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+ }
+ .box2{
+    position: sticky;
+    top: 0px;
+    left: 50px;
+ }

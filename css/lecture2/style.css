@@ -1,0 +1,32 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    /* background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image:linear-gradient(to top,red,blue ); */
+    background-image:linear-gradient(to right, orange ,white,green)
+}
+.radial{
+    border:1px solid black;
+    margin:10px;
+    width:300px;
+    height:150px;
+    background-image: radial-gradient(circle,red,blue,green);
+    background-image:radial-gradient(yellow 5%,red 10%)
+    
+
+
+}
+.hw{
+    border:1px solid black;
+    margin:10px;
+    height:200px;
+    width:150px;
+    background-image: conic-gradient(orange,white,green);
+
+}
+
+
+
+
